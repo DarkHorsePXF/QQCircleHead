@@ -1,0 +1,8 @@
+<resources>
+    
+    <color name="front_ground">#ac000000</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    
+</resources>
