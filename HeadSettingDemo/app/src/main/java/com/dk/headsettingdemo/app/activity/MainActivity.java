@@ -15,10 +15,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import com.dk.headsettingdemo.app.R;
+import com.dk.headsettingdemo.app.common.BaseActivity;
 import com.dk.headsettingdemo.app.util.BitmapUtil;
 
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener{
+public class MainActivity extends BaseActivity implements View.OnClickListener{
     private final int REQ_CODE_CAMERA=2;
     private final int MSG_CHANGE_HEAD=0x11;
 

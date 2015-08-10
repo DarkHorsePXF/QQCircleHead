@@ -10,11 +10,12 @@ import android.os.Message;
 import android.view.View;
 import android.view.Window;
 import com.dk.headsettingdemo.app.R;
+import com.dk.headsettingdemo.app.common.BaseActivity;
 import com.dk.headsettingdemo.app.util.BitmapUtil;
 import com.dk.headsettingdemo.app.widget.HeadCutView;
 
 
-public class HeadCuttingActivity extends Activity {
+public class HeadCuttingActivity extends BaseActivity {
 	public static final int RESULT_DONE = 1;
 	public static final String EXTRA_IMAGE_INDEX = "image_index";
     public static final String EXTRA_HEAD_DATA="change_head";

@@ -17,9 +17,10 @@ import android.widget.ListAdapter;
 
 import com.dk.headsettingdemo.app.R;
 import com.dk.headsettingdemo.app.adapter.ImageLoaderAdapter;
+import com.dk.headsettingdemo.app.common.BaseActivity;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
-public class PhotoScanningActivity extends Activity {
+public class PhotoScanningActivity extends BaseActivity {
 	public static String IMAGE_PATH = "path";
 	public static String IMAGE_NAME = "name";
 	private GridView gvImages;
